@@ -1,0 +1,6 @@
+**/*.d.ts
+node_modules
+lib
+*dist*
+.cache
+rollup.config.js

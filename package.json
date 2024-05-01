@@ -5,7 +5,11 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "lerna": "^8.1.2"
+    "eslint": "8.38.0",
+    "eslint-config-next": "^14.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "lerna": "^8.1.2",
+    "prettier": "^3.2.5"
   },
   "workspaces": {
     "packages": [
@@ -15,6 +19,8 @@
   },
   "scripts": {
     "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev"
+    "dev": "yarn lerna run dev",
+    "format": "prettier --write .",
+    "lint": "eslint ."
   }
 }

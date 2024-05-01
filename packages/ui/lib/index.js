@@ -1,4 +1,4 @@
-export { H as Hello } from './Hello-iXgr6-0n.js';
+export { H as Hello } from './Hello-SyQHMWzT.js';
 import 'react';
 import '@emotion/styled';
 //# sourceMappingURL=index.js.map

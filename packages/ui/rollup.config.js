@@ -1,12 +1,12 @@
-import Ts from "rollup-plugin-typescript2";
+import Ts from 'rollup-plugin-typescript2';
 
 export default {
-  input: ["src/index.ts", "src/Hello/index.ts"],
+  input: ['src/index.ts', 'src/Hello/index.ts'],
   output: {
-    dir: "lib",
-    format: "esm",
+    dir: 'lib',
+    format: 'esm',
     sourcemap: true,
   },
   plugins: [Ts()],
-  external: ["react"],
+  external: ['react', '@emotion/react', '@emotion/styled'],
 };

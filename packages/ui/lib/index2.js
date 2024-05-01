@@ -1,4 +1,4 @@
-export { H as default } from './Hello-iXgr6-0n.js';
+export { H as default } from './Hello-SyQHMWzT.js';
 import 'react';
 import '@emotion/styled';
 //# sourceMappingURL=index2.js.map

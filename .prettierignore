@@ -1,0 +1,9 @@
+**/*.d.ts
+node_modules
+lib
+dist
+.cache
+.eslintignore
+.eslintrc
+.prettierrc
+.prettierignore
