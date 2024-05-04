@@ -1,5 +1,7 @@
 import styled from '@emotion/styled';
 
-export const Text = styled('div')(() => ({
-  color: 'red',
-}));
+export const Text = styled('div')((props) => {
+  return {
+    color: props.theme.color.primary,
+  };
+});

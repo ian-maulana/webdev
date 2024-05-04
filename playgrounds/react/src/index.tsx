@@ -1,12 +1,43 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import { ThemeProvider } from '@emotion/react';
 
-import { Hello } from '@webdev/ui';
+import App from './App';
+
+const theme = {
+  color: {
+    primary: 'green',
+    white: 'white',
+  },
+  size: {
+    s5: '5px',
+    s10: '10px',
+    s16: '16px',
+  },
+  radius: {
+    r16: '16px',
+  },
+  fontSize: {
+    xs: '10px',
+    sm: '12px',
+    md: '14px',
+    lg: '16px',
+    xl: '18px',
+  },
+  fontWeight: {
+    normal: 400,
+    medium: 500,
+    semiBold: 600,
+    bold: 700,
+  },
+};
 
 const element: any = document.getElementById('root');
 const root = createRoot(element); // createRoot(container!) if you use TypeScript
 root.render(
   <div style={{ padding: '40px' }}>
-    <Hello />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </div>,
 );
