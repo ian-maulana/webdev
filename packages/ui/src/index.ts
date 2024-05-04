@@ -1,3 +1,4 @@
 import Hello from './Hello';
+import Visible from './Visible';
 
-export { Hello };
+export { Hello, Visible };

@@ -1,15 +1,19 @@
 import React from 'react';
-import { Hello } from '@webdev/ui';
+import { Hello, Visible } from '@webdev/ui';
 
 interface Props {}
 
 const App: React.FC<Props> = () => {
-  const [state, setState] = React.useState(true);
+  const [show, setShow] = React.useState(true);
   return (
     <>
-      <button onClick={() => setState(!state)}>Click</button>
+      <button onClick={() => setShow(!show)} style={{ margin: '16px 0' }}>
+        Click
+      </button>
 
-      <Hello />
+      <Visible visible={show}>
+        <Hello />
+      </Visible>
     </>
   );
 };
