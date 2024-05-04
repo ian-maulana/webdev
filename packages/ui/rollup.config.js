@@ -7,6 +7,7 @@ export default {
     'src/Visible/index.ts',
     'src/Card/index.ts',
     'src/Status/index.ts',
+    'src/Divider/index.ts',
   ],
   output: {
     dir: 'lib',
