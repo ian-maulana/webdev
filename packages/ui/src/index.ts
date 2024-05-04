@@ -1,4 +1,4 @@
-import Hello from './Hello';
+import Badge from './Badge';
 import Visible from './Visible';
 
-export { Hello, Visible };
+export { Badge, Visible };

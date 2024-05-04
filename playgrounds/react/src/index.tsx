@@ -6,7 +6,12 @@ import App from './App';
 
 const theme = {
   color: {
-    primary: 'green',
+    primary: 'blue',
+    success: 'green',
+    warning: 'yello',
+    critical: 'red',
+    secondary: 'grey',
+    info: 'purple',
     white: 'white',
   },
   size: {
@@ -32,8 +37,8 @@ const theme = {
   },
 };
 
-const element: any = document.getElementById('root');
-const root = createRoot(element); // createRoot(container!) if you use TypeScript
+const element = document.getElementById('root');
+const root = createRoot(element!); // createRoot(container!) if you use TypeScript
 root.render(
   <div style={{ padding: '40px' }}>
     <ThemeProvider theme={theme}>

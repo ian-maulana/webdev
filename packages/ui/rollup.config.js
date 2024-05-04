@@ -1,7 +1,7 @@
 import Ts from 'rollup-plugin-typescript2';
 
 export default {
-  input: ['src/index.ts', 'src/Hello/index.ts', 'src/Visible/index.ts'],
+  input: ['src/index.ts', 'src/Badge/index.ts', 'src/Visible/index.ts'],
   output: {
     dir: 'lib',
     format: 'esm',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hello, Visible } from '@webdev/ui';
+import { Badge, Visible } from '@webdev/ui';
 
 interface Props {}
 
@@ -7,12 +7,12 @@ const App: React.FC<Props> = () => {
   const [show, setShow] = React.useState(true);
   return (
     <>
-      <button onClick={() => setShow(!show)} style={{ margin: '16px 0' }}>
-        Click
-      </button>
+      <div style={{ margin: '16px 0' }}>
+        <button onClick={() => setShow(!show)}>Click</button>
+      </div>
 
       <Visible visible={show}>
-        <Hello />
+        <Badge color="primary">Test</Badge>
       </Visible>
     </>
   );
