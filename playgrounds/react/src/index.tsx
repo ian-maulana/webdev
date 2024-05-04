@@ -13,6 +13,7 @@ const theme = {
     secondary: 'grey',
     info: 'purple',
     white: 'white',
+    border: '#ddd',
   },
   size: {
     s5: '5px',
@@ -20,6 +21,8 @@ const theme = {
     s16: '16px',
   },
   radius: {
+    r5: '5px',
+    r10: '10px',
     r16: '16px',
   },
   fontSize: {

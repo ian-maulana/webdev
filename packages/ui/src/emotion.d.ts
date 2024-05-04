@@ -10,6 +10,7 @@ declare module '@emotion/react' {
       secondary: string,
       info: string,
       white: string,
+      border: string,
     },
     size: {
       s5: string,
@@ -17,6 +18,8 @@ declare module '@emotion/react' {
       s16: string,
     },
     radius: {
+      r5: string,
+      r10: string,
       r16: string,
     },
     fontSize: {
