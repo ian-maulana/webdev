@@ -6,6 +6,7 @@ export default {
     'src/Badge/index.ts',
     'src/Visible/index.ts',
     'src/Card/index.ts',
+    'src/Status/index.ts',
   ],
   output: {
     dir: 'lib',

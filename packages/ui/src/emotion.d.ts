@@ -21,6 +21,7 @@ declare module '@emotion/react' {
       r5: string,
       r10: string,
       r16: string,
+      r24: string
     },
     fontSize: {
       xs: string,

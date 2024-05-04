@@ -24,6 +24,7 @@ const theme = {
     r5: '5px',
     r10: '10px',
     r16: '16px',
+    r24: '24px',
   },
   fontSize: {
     xs: '10px',

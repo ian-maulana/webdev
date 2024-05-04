@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Visible, Card } from '@webdev/ui';
+import { Badge, Visible, Card, Status } from '@webdev/ui';
 
 interface Props {}
 
@@ -10,6 +10,10 @@ const App: React.FC<Props> = () => {
       <Card>
         <div style={{ margin: '16px 0' }}>
           <button onClick={() => setShow(!show)}>Click</button>
+        </div>
+
+        <div style={{ margin: '16px 0' }}>
+          <Status color="success">Active</Status>
         </div>
 
         <Visible visible={show}>
