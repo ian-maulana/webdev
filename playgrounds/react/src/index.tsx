@@ -15,17 +15,23 @@ const theme = {
     white: 'white',
     border: '#ddd',
     text: '#222',
+    disabled: '#ccc',
   },
   size: {
     s5: '5px',
     s10: '10px',
     s16: '16px',
+    s20: '20px',
   },
   radius: {
     r5: '5px',
     r10: '10px',
     r16: '16px',
     r24: '24px',
+  },
+  fontFamily: {
+    primary: '"Roboto", sans-serif',
+    secondary: '"Roboto", sans-serif',
   },
   fontSize: {
     xs: '10px',

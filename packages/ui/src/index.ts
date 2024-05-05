@@ -4,5 +4,6 @@ import Card from './Card';
 import Status from './Status';
 import Divider from './Divider';
 import FormGroup from './FormGroup';
+import ContainedButton from './ContainedButton';
 
-export { Badge, Visible, Card, Status, Divider, FormGroup };
+export { Badge, Visible, Card, Status, Divider, FormGroup, ContainedButton };

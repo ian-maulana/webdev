@@ -1,5 +1,13 @@
 import React from 'react';
-import { Badge, Visible, Card, Status, Divider, FormGroup } from '@webdev/ui';
+import {
+  Badge,
+  Visible,
+  Card,
+  Status,
+  Divider,
+  FormGroup,
+  ContainedButton,
+} from '@webdev/ui';
 
 interface Props {}
 
@@ -16,6 +24,12 @@ const App: React.FC<Props> = () => {
 
         <div style={{ margin: '16px 0' }}>
           <Status color="success">Active</Status>
+        </div>
+
+        <Divider />
+
+        <div style={{ margin: '16px 0' }}>
+          <ContainedButton color="primary">Update</ContainedButton>
         </div>
 
         <Divider />

@@ -9,6 +9,7 @@ export default {
     'src/Status/index.ts',
     'src/Divider/index.ts',
     'src/FormGroup/index.ts',
+    'src/ContainedButton/index.ts',
   ],
   output: {
     dir: 'lib',
