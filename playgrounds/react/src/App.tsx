@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Visible, Card, Status, Divider } from '@webdev/ui';
+import { Badge, Visible, Card, Status, Divider, FormGroup } from '@webdev/ui';
 
 interface Props {}
 
@@ -23,6 +23,12 @@ const App: React.FC<Props> = () => {
         <Visible visible={show}>
           <Badge color="primary">Test</Badge>
         </Visible>
+
+        <Divider />
+
+        <FormGroup label="Test" name="Test">
+          Hello
+        </FormGroup>
       </Card>
     </>
   );

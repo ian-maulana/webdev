@@ -8,6 +8,7 @@ export default {
     'src/Card/index.ts',
     'src/Status/index.ts',
     'src/Divider/index.ts',
+    'src/FormGroup/index.ts',
   ],
   output: {
     dir: 'lib',

@@ -11,6 +11,7 @@ declare module '@emotion/react' {
       info: string,
       white: string,
       border: string,
+      text: string,
     },
     size: {
       s5: string,

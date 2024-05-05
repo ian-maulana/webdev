@@ -14,6 +14,7 @@ const theme = {
     info: 'purple',
     white: 'white',
     border: '#ddd',
+    text: '#222',
   },
   size: {
     s5: '5px',
