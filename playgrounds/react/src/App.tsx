@@ -7,6 +7,7 @@ import {
   Divider,
   FormGroup,
   ContainedButton,
+  OutlinedButton,
 } from '@webdev/ui';
 
 interface Props {}
@@ -29,7 +30,13 @@ const App: React.FC<Props> = () => {
         <Divider />
 
         <div style={{ margin: '16px 0' }}>
-          <ContainedButton color="primary">Update</ContainedButton>
+          <ContainedButton color="primary">Contained Button</ContainedButton>
+        </div>
+
+        <Divider />
+
+        <div style={{ margin: '16px 0' }}>
+          <OutlinedButton color="primary">Outlined Button</OutlinedButton>
         </div>
 
         <Divider />

@@ -5,5 +5,15 @@ import Status from './Status';
 import Divider from './Divider';
 import FormGroup from './FormGroup';
 import ContainedButton from './ContainedButton';
+import OutlinedButton from './OutlinedButton';
 
-export { Badge, Visible, Card, Status, Divider, FormGroup, ContainedButton };
+export {
+  Badge,
+  Visible,
+  Card,
+  Status,
+  Divider,
+  FormGroup,
+  ContainedButton,
+  OutlinedButton,
+};
