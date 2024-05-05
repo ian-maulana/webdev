@@ -8,7 +8,7 @@ const theme = {
   color: {
     primary: 'blue',
     success: 'green',
-    warning: 'yello',
+    warning: 'yellow',
     critical: 'red',
     secondary: 'grey',
     info: 'purple',
@@ -16,6 +16,7 @@ const theme = {
     border: '#ddd',
     text: '#222',
     disabled: '#ccc',
+    transparent: 'transparent',
   },
   size: {
     s5: '5px',

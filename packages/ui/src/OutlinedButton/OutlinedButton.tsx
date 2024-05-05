@@ -4,7 +4,7 @@ import { Button } from './styles';
 interface Props {
   children?: any;
   type?: 'button' | 'submit' | 'reset';
-  color?: 'primary' | 'secondary' | 'critical' | 'info' | 'success';
+  color?: 'primary' | 'secondary' | 'critical' | 'info' | 'success' | 'warning';
   disabled?: boolean;
   className?: string;
   onClick?: any;

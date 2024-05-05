@@ -16,7 +16,7 @@ interface Props {
   title?: string;
 }
 
-const ContainedButton: React.FC<Props> = ({
+const TextButton: React.FC<Props> = ({
   type,
   color,
   children,
@@ -48,4 +48,4 @@ const ContainedButton: React.FC<Props> = ({
   );
 };
 
-export default ContainedButton;
+export default TextButton;

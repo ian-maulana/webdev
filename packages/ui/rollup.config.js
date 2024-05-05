@@ -11,6 +11,7 @@ export default {
     'src/FormGroup/index.ts',
     'src/ContainedButton/index.ts',
     'src/OutlinedButton/index.ts',
+    'src/TextButton/index.ts',
   ],
   output: {
     dir: 'lib',
