@@ -12,6 +12,7 @@ export default {
     'src/ContainedButton/index.ts',
     'src/OutlinedButton/index.ts',
     'src/TextButton/index.ts',
+    'src/Dialog/index.ts',
   ],
   output: {
     dir: 'lib',

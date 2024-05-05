@@ -7,6 +7,7 @@ import FormGroup from './FormGroup';
 import ContainedButton from './ContainedButton';
 import OutlinedButton from './OutlinedButton';
 import TextButton from './TextButton';
+import Dialog from './Dialog';
 
 export {
   Badge,
@@ -18,4 +19,5 @@ export {
   ContainedButton,
   OutlinedButton,
   TextButton,
+  Dialog,
 };

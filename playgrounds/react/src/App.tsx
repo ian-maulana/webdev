@@ -9,6 +9,7 @@ import {
   ContainedButton,
   OutlinedButton,
   TextButton,
+  Dialog,
 } from '@webdev/ui';
 
 interface Props {}
@@ -21,6 +22,16 @@ const App: React.FC<Props> = () => {
         <div style={{ margin: '16px 0' }}>
           <button onClick={() => setShow(!show)}>Click</button>
         </div>
+
+        <Dialog
+          size="md"
+          title="Dialog"
+          description="Testing"
+          visible={show}
+          onClose={() => setShow(false)}
+        >
+          <div style={{ padding: '0 24px 24px' }}>test</div>
+        </Dialog>
 
         <Divider />
 
