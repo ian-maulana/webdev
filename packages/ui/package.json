@@ -1,7 +1,7 @@
 {
   "name": "@webdev/ui",
   "author": "Ian Maulana",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
@@ -24,9 +24,12 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.4.5"
   },
-  "repository": "https://github.com/ian-maulana/webdev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ian-maulana/webdev"
+  },
   "publishConfig": {
     "@ian-maulana:registry": "https://npm.pkg.github.com"
   },
-  "gitHead": "feec4bbcc8cb1f8bda6973d062d209174290e659"
+  "gitHead": "e3b64710016ec24ef65851ff0dc3a278dc8e9787"
 }
