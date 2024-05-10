@@ -1,7 +1,7 @@
 {
   "name": "@webdev/ui",
   "author": "Ian Maulana",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
