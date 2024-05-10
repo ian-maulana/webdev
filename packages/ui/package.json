@@ -1,7 +1,7 @@
 {
   "name": "@webdev/ui",
   "author": "Ian Maulana",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
@@ -27,5 +27,5 @@
   "publishConfig": {
     "@webdev:registry": "https://npm.pkg.github.com/webdev"
   },
-  "gitHead": "417029cc6e0feae8b22c487ebc90c196eec14642"
+  "gitHead": "1332534fed985244bda036e87a43065e62d1ba29"
 }
