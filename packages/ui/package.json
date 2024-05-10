@@ -29,7 +29,7 @@
     "url": "https://github.com/ian-maulana/webdev"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@ian-maulana:registry": "https://npm.pkg.github.com"
   },
   "gitHead": "e3b64710016ec24ef65851ff0dc3a278dc8e9787"
 }
