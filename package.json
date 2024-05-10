@@ -21,6 +21,7 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "yarn build && yarn lerna publish"
   }
 }
