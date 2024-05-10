@@ -1,5 +1,6 @@
 {
   "name": "@webdev/core",
+  "author": "Ian Maulana",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
